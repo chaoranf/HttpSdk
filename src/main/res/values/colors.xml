@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- hilo颜色 -->
+    <color name="divider_color_hilo">#333334</color>
+    <color name="button_color_left_hilo">#2F89FE</color>
+    <color name="button_color_right_hilo">#454545</color>
+    <color name="top_bar_blue_hilo">#1B7FFF</color>
+    <color name="top_bar_gray_hilo">#FAFAFA</color>
+    <color name="withe">#ffffff</color>
+    <color name="blue_sky">#1B7FFF</color>
+    <color name="bottom_bar_line_color">#C1C1C1</color>
+    <color name="mine_fragment_divider">#EEEEEE</color>
+
+</resources>
