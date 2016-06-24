@@ -59,14 +59,11 @@ public class GiveRequest extends StringRequest implements
         GiveHeaderParser.storeCookie(mContext, headers);
     }
 
+    //自己需要的header可以写到这里
     @Override
     public Map<String, String> getHeaders() throws AuthFailureError {
         Map<String, String> temp = new HashMap<String, String>();
         temp.put("Cookie", CookieUtil.getRequestCookies(mContext));
-        //apikey,先无耻的写死在这里
-        temp.put("apikey", "315ec2b823c85f76d98449369427068f");
-        // temp.put("User-Agent",
-        // CookieSp.getInstance(mContext).getUserAgent());
         return temp;
     }
 
